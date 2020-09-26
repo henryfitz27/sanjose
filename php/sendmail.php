@@ -10,7 +10,7 @@
 
   $message = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Message: ' . $message;
 
-  $success = @mail($email_to, "[KasCo Landing] ".$name, $message);
+  $success = @mail($email_to, "[Crad Landing] ".$name, $message);
 
-  $noreply = @mail($email_from, "[KasCo Landing] Thank you to email us.", "We will be back to you soon!");
+  $noreply = @mail($email_from, "[Crad Landing] Thank you to email us.", "We will be back to you soon!");
 ?>
